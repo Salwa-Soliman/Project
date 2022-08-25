@@ -1,0 +1,62 @@
+html,
+body,
+.root {
+  height: 100%;
+}
+body {
+  line-height: 1.5;
+}
+
+body,
+.app {
+  background: white;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Custom  */
+.centered {
+  text-align: center;
+}
+
+.link {
+  color: cornflowerblue;
+  background-color: transparent;
+  border: 0;
+  font-weight: bold;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.centered-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+}
+/* Not found page  */
+.not-found {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.not-found span {
+  color: #e00;
+  font-weight: bolder;
+}
+
+/* Book Details  */
+.book-details {
+  height: 100vh;
+  max-height: 100vh;
+}
